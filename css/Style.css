@@ -1,11 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 10px;
     font-size: 18px;
+    font-size-adjust: inherit;
     line-height:150%;
     color:  #333;
     background:  #efeee7;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #cccccc;
+    background-image: linear-gradient(#efeee7, #c8d6d6);
+    background-origin: initial
 
 }
 
@@ -24,6 +29,7 @@ h1 {
 
 h2 {
     font-size: 24px;
+    font-size-adjust: inherit;
 }
 
 .container {
